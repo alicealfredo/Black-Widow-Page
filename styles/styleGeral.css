@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 body {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
@@ -40,17 +42,17 @@ nav {
     color: #F2F3AE;
     background-color: #172125;
 }
-main p {
+p {
     margin: 20px;
 }
-main h1 {
+h1 {
     margin: 20px;
 }
-main h2 {
+h2 {
     color: #EC1E24;
     margin: 20px;
 }
-main h3 {
+h3 {
     color: #C0F6FF;
     margin: 20px;
 }
@@ -101,10 +103,42 @@ footer {
     width: 40px;
     height: 40px;
 }
-#X{
+#X {
     width: 10px;
     height: 10px;
 }
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    p{
+        font-size: 22px;
+    }
+    li{
+        font-size: 22px;
+    }
+}
 @media (max-width: 600px) {
-
+    nav ul{
+        display:none;
+    }
+    .hamburger {
+        display: block;
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    li{
+        font-size: 18px;
+    }
 }
