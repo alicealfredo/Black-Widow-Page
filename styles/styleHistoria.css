@@ -1,2 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.cartoesTempo {
+    background-color: #3C1518;
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.cartoesTempo:hover {
+    padding: 30px;
+    margin: 0.5rem;
+}
+.acontecimentos {
+    display: flex;
+    flex-direction: row;
+}
+.itens {
+    display: flex;
+    flex-direction: row;
+}
+.cartoesCuriosidades {
+    background-color: #172125;
+    padding: 20px;
+    margin: 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cartoesCuriosidades:hover {
+    padding: 30px;
+    margin: 0.5rem;
+}
+.textoCartoes {
+    display: flex;
+    flex-direction: column;
+}
+.cartoesCuriosidades img {
+    height: 300px;
+    margin: 20px;
+    border-radius: 1000px;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .acontecimentos {
+        display: flex;
+        flex-direction: column;
+    }
+    .itens {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .acontecimentos {
+        display: flex;
+        flex-direction: column;
+    }
+    .itens {
+        display: flex;
+        flex-direction: column;
+    }
+}
