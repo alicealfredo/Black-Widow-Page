@@ -14,13 +14,13 @@
     padding: 40px 20px;
     color: black;
     display:flex;
-    height: 500px;
+    height: 35rem;
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
     background-image: url("../imagens/backgroundIndexContainer01.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center -5rem;
 }
 
 .container01 p {
@@ -75,12 +75,18 @@
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
+    .titulo {
+        font-size: 40px;
+        letter-spacing: 0;
+    }
     .homeInfoTitulo {
         display: flex;
         align-content: center;
     }
     .container01 {
         padding: 30px 15px;
+        height: 25rem;
+        background-position: center;
     }
     .sobre {
         display: flex;
@@ -92,15 +98,20 @@
 }
 
 @media (max-width: 600px) {
+    .titulo {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
     .homeInfoTitulo {
         display: flex;
         align-content: center;
     }
     .container01 {
         padding: 20px 10px;
-        min-height: 300px;
         align-items: center;
         text-align: center;
+        background-position: center;
+        height: 25rem;
     }
     .sobre {
         display: flex;

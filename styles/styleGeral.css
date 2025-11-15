@@ -19,15 +19,13 @@ a:hover{
 }
 button {
     background-color: #3C1518;
-    margin-bottom: 1rem;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size:18px;
     border-radius: 30px;
 }
 
 button:hover {
     background-color: #EC1E24;
-    margin-bottom: 1rem;
 }
 button a {
     color: white;
@@ -110,14 +108,14 @@ footer {
     height: 10px;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
+    li{
+        font-size: 15px;
+    }
     h1 {
-        font-size: 40px;
+        font-size: 26px;
     }
     h2 {
-        font-size: 28px;
-    }
-    p{
-        font-size: 22px;
+        font-size: 20px;
     }
     li{
         font-size: 22px;
@@ -131,16 +129,11 @@ footer {
         display: block;
         margin-right: 10px;
     }
-    h1 {
-        font-size: 30px;
     }
     h2 {
-        font-size: 22px;
-    }
-    p{
         font-size: 18px;
     }
     li{
-        font-size: 18px;
+        font-size: 12px;
     }
 }
