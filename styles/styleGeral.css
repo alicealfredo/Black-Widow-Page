@@ -56,16 +56,6 @@ h3 {
     color: #C0F6FF;
     margin: 20px;
 }
-form textarea {
-    margin-left: 20px;
-    margin-top: -10px;
-}
-form text {
-    margin-top: -10px;
-}
-#button {
-    margin: 20px;
-}
 nav ul{
     list-style: none;
     display: flex;
@@ -117,9 +107,6 @@ footer {
     h2 {
         font-size: 20px;
     }
-    li{
-        font-size: 22px;
-    }
 }
 @media (max-width: 600px) {
     nav ul{
@@ -133,6 +120,9 @@ footer {
         font-size: 18px;
     }
     li{
+        font-size: 12px;
+    }
+    body{
         font-size: 12px;
     }
 }

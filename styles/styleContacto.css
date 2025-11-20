@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.cartoesFrases {
+    background-color: #3C1518;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.cartoesFrases:hover {
+    padding: 10px;
+    margin: 0.5rem;
+}
+.contacto h2 {
+    color: #C0F6FF;
+}
+form {
+    background-color: #172125;
+    border-radius: 15px;
+    padding: 15px;
+}
+form textarea {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+form text {
+    margin-top: -10px;
+}
+#button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #69140E;
+    color: white;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .containers {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    form {
+        background-color: #172125;
+        border-radius: 15px;
+        margin: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .containers {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    form {
+        background-color: #172125;
+        border-radius: 15px;
+    }
+}
