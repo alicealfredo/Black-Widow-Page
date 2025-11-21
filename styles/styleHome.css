@@ -112,6 +112,7 @@
         text-align: center;
         background-position: center;
         height: 25rem;
+        color: white;
     }
     .sobre {
         display: flex;
