@@ -75,7 +75,6 @@ h2 {
 .itens {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 .cartoes {
     padding: 40px;
