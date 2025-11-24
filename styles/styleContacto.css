@@ -46,6 +46,11 @@ form text {
     background: transparent;
     border-radius: 7px;
     padding: 10px;
+    color: white;
+}
+.campoForm p{
+    font-family: "Funnel Display", sans-serif;
+    color: #C0F6FF;
 }
 #button {
     margin: 20px;
