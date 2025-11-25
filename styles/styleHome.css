@@ -1,32 +1,45 @@
+@font-face {
+            font-family: "Funnel Display";
+            src: url(../fontes/FunnelDisplay/FunnelDisplay-VariableFont_wght.ttf);
+        }
+@font-face {
+            font-family: "Boldonse";
+            src: url(../fontes/Boldonse/Boldonse-Regular.ttf);
+        }
+@font-face {
+            font-family: "Nothing You Could Do";
+            src: url(../fontes/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf);
+        }
+@font-face {
+            font-family: "Karla";
+            src: url(../fontes/Karla/Karla-VariableFont_wght.ttf);
+        }
+
 .titulo{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    letter-spacing: -1px;
-    font-style: normal;
     font-size: 60px;
     margin-top: 20px;
-    margin-bottom: -5px;
-    line-height: 70px;
+    line-height: 100px;
 }
 
 .container01{
     padding: 40px 20px;
-    color: black;
     display:flex;
     height: 35rem;
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
-    background-image: url("../imagens/backgroundIndexContainer01.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.225), rgb(12, 18, 20,1)), url("../imagens/backgroundIndexContainer01.jpg");
     background-size: cover;
-    background-position: center -5rem;
+    background-position: center
 }
-
+.container01 h1 {
+    color: #C0F6FF;
+}
 .container01 p {
     font-size: 25px;
-    font-family: "Nothing You Could Do", cursive;
-    margin: 10px 0;
+    font-family: "Nothing You Could Do";
+    margin-top: -10px;
+    margin-bottom: 30px;
 }
 #origem {
     display: flex;
@@ -83,15 +96,17 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
     font-size: 25px;
-    font-family: "Nothing You Could Do", cursive;
+    font-family: "Nothing You Could Do";
+    color: #C0F6FF;
+    margin: 40px;
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .titulo {
         font-size: 40px;
         letter-spacing: 0;
+        line-height: 70px;
     }
     .homeInfoTitulo {
         display: flex;
@@ -101,6 +116,9 @@
         padding: 30px 15px;
         height: 25rem;
         background-position: center;
+    }
+    .container01 p {
+        font-size: 20px;
     }
     .sobre {
         display: flex;
@@ -114,7 +132,7 @@
 @media (max-width: 600px) {
     .titulo {
         font-size: 30px;
-        letter-spacing: 0;
+        line-height: 30px;
     }
     .homeInfoTitulo {
         display: flex;
@@ -128,11 +146,22 @@
         height: 25rem;
         color: white;
     }
+    .container01 p {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .container01 button a {
+        font-size: 13px;
+    }
     .sobre {
         display: flex;
         flex-direction: column;
     }
     .citacao {
-        font-size: 18px;
+        font-size: 15px;
+    }
+    .citacao button a {
+        font-size: 13px;
     }
 }

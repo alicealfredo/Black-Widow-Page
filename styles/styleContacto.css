@@ -1,5 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+            font-family: "Funnel Display";
+            src: url(../fontes/FunnelDisplay/FunnelDisplay-VariableFont_wght.ttf);
+        }
+@font-face {
+            font-family: "Boldonse";
+            src: url(../fontes/Boldonse/Boldonse-Regular.ttf);
+        }
+@font-face {
+            font-family: "Nothing You Could Do";
+            src: url(../fontes/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf);
+        }
+@font-face {
+            font-family: "Karla";
+            src: url(../fontes/Karla/Karla-VariableFont_wght.ttf);
+        }
 
 .containers {
     display: flex;
@@ -24,14 +38,12 @@
     margin: 0.5rem;
 }
 .contacto h2 {
-    color: #C0F6FF;
+    color: white;
 }
 form {
-    border: 1px solid transparent;
-    border-color: #C0F6FF;
     background: transparent;
-    border-radius: 15px;
     padding: 15px;
+    margin-top: -30px;
 }
 form textarea {
     margin-left: 20px;
@@ -44,12 +56,12 @@ form text {
     border: 1px solid transparent;
     border-color: #C0F6FF;
     background: transparent;
-    border-radius: 7px;
+    border-radius: 20px;
     padding: 10px;
     color: white;
 }
 .campoForm p{
-    font-family: "Funnel Display", sans-serif;
+    font-family: "Funnel Display";
     color: #C0F6FF;
 }
 #button {
@@ -58,6 +70,7 @@ form text {
     border-radius: 30px;
     background-color: #69140E;
     color: white;
+    font-family: "Funnel Display";
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -66,10 +79,8 @@ form text {
         flex-direction: column;
         margin: 10px;
     }
-    form {
-        background-color: #172125;
-        border-radius: 15px;
-        margin: 20px;
+    .tituloForm {
+        text-align: center;
     }
 }
 @media (max-width: 600px) {
@@ -77,9 +88,5 @@ form text {
         display: flex;
         flex-direction: column;
         margin: 10px;
-    }
-    form {
-        background-color: #172125;
-        border-radius: 15px;
     }
 }
