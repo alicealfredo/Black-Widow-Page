@@ -58,7 +58,6 @@
 }
 #habilidades {
     display: flex;
-    align-content: left;
     flex-direction: column;
     background-color: #3C1518;
     padding: 10px;
